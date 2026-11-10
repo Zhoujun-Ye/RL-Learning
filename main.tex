@@ -1,0 +1,41 @@
+% !TeX program = xelatex
+\documentclass[a4paper,11pt]{article}
+\usepackage[UTF8,scheme=plain,fontset=fandol]{ctex}
+\usepackage[margin=2.5cm]{geometry}
+\setmainfont{texgyrepagella}[
+  Extension=.otf,
+  UprightFont=*-regular,
+  BoldFont=*-bold,
+  ItalicFont=*-italic,
+  BoldItalicFont=*-bolditalic
+]
+\usepackage{amsmath,amsthm,mathtools}
+\usepackage{newpxmath}
+\usepackage{bm}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue}
+\renewcommand{\contentsname}{Contents}
+\renewcommand{\refname}{References}
+\renewcommand{\proofname}{Proof}
+\renewcommand{\today}{\number\year-\ifnum\month<10 0\fi\number\month-\ifnum\day<10 0\fi\number\day}
+
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}[section]
+\newtheorem{example}{Example}[section]
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\given}{\mid}
+
+\title{Mathematical Notes on Reinforcement Learning}
+\author{Zhoujun Ye}
+\date{\today}
+\begin{document}
+\maketitle
+
+
+
+\end{document}

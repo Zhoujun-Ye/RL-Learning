@@ -1,0 +1,16 @@
+{
+  "latex-workshop.latex.build.enableMagicComments": false,
+  "latex-workshop.latex.recipes": [
+    { "name": "RL Notes (XeLaTeX)", "tools": ["rl-notes"] }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "rl-notes",
+      "command": "/bin/sh",
+      "args": ["%DIR%/compile.sh"]
+    }
+  ],
+  "latex-workshop.latex.outDir": "%DIR%/build",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.view.pdf.viewer": "tab"
+}
